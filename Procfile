@@ -1,1 +1,1 @@
-web: gunicorn Assessment:website
+web: gunicorn website:wsgi
