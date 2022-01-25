@@ -8,15 +8,15 @@
         <button type="button" class="close" onClick="deleteNote({{ note.id }})">
           <span aria-hidden="true">&times;</span>
         </button>
-      </li> 
+      </li>
       {% endfor %}
     </ul>
     <form method="POST">
       <textarea name="note" id="note" class="form-control"></textarea>
-      <br />
+      <br /> 
       <div align="center">
         <button type="submit" class="btn btn-primary">Add Note</button>
-      </div>
+      </div> 
     </form>
     {% endblock %}
     
