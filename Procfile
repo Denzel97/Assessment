@@ -1,1 +1,1 @@
-web: gunicorn assessment:website
+web: gunicorn Assessment:website
